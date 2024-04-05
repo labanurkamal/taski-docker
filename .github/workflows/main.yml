@@ -14,7 +14,8 @@ jobs:
           uses: actions/checkout@v3
         - name: Set Python langueges
           uses: actions/setup-python@v4
-          with: python-version: 3.9
+          with:
+            python-version: 3.9
         - name: Install dependencies
           run: |
             python -m pip install --upgrade pip 
